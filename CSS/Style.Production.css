@@ -189,7 +189,7 @@ button:focus,
   -ms-flex: 1 1 100px;
   flex: 1 1 100px;
 }
-
+/* Styling to fit the width of browsers*/
 @media all and (max-width: 500px) {
   .grid {
     -ms-grid-columns: 1fr;
@@ -226,7 +226,7 @@ button:focus,
     fill: #f76414;
   }
 }
-
+/* Adding animations to the CSS*/
 @keyframes color-change {
   0% {
     fill: #edc655;
