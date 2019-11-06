@@ -33,11 +33,11 @@ a:focus {
 }
 
 a:visited {
-  color: #05676e;
+  background-color: #05676e;
 }
 
 a:active {
-  color: #489c79;
+  background-color: #489c79;
 }
 
 input,
@@ -54,7 +54,7 @@ button,
   border: none;
   display: inline-block;
   /* takes the font from the outer container */
-  font-family: inherit;
+  font-family:inherit;
   /* style button */
   background-color: #357b70;
   color: white;
@@ -64,7 +64,6 @@ button,
   /* width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
-  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
 }
 
@@ -84,7 +83,6 @@ button {
   /* width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
-  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
 }
 
